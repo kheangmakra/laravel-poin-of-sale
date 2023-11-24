@@ -57,7 +57,8 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
             'strict' => true,
-            'engine' => null,
+            // 'engine' => null,
+            'engine' => 'InnoDB',
             'dump' => [
                 'dump_binary_path' => 'C:/xampp/mysql/bin', // only the path, so without `mysqldump` or `pg_dump`
                 'use_single_transaction',

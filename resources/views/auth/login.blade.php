@@ -22,12 +22,12 @@
                                         </div>
                                         @error('username')
                                         <div class="mb-4" style="margin-top: -20px">
-                                            <div class="text-danger small">Incorrect username or password.</div>
+                                            <div class="text-danger small">Incorrect username.</div>
                                         </div>
                                         @enderror
                                         @error('email')
                                         <div class="mb-4" style="margin-top: -20px">
-                                            <div class="text-danger small">Incorrect username or password.</div>
+                                            <div class="text-danger small">Incorrect password.</div>
                                         </div>
                                         @enderror
                                     </div>

@@ -13,7 +13,7 @@
                                 <h2 class="mb-2">Register</h2>
                                 <p>Create your POSDash account.</p>
 
-                                <form method="POST" action="{{ route('register') }}">
+                                <form method="get" action="{{ route('register') }}">
                                     @csrf
                                     <div class="row">
                                         <div class="col-lg-12">
